@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.navbar-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Use 400 for normal weight or 700 for bold */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
