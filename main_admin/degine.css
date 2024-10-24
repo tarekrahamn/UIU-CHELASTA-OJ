@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:transparent;
+}
+.navbar {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.nbar {
+    background-color:orange;
+    font-size: 13px;
+}
+.navbar-brand, .navbar-nav li a {
+    color: #fff !important;
+}
+.navbar-brand:hover, .navbar-nav li a:hover {
+    color: #f8f9fa !important;
+}
+.nav navbar-nav{
+    font-size: 13px;
+}
+.main {
+    padding-top: 70px;
+}
+.form-group.log {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00000026;
+}
+.xmm {
+    max-width: 500px;
+}
+.form-control {
+    border-radius: 5px;
+}
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+.alert {
+    margin-top: 10px;
+}
+.foot {
+    background-color:black;
+    color: #fff;
+    padding: 20px 0;
+}
+.fm {
+    text-align: center;
+}
+.fm b {
+    font-size: 16px;
+}
