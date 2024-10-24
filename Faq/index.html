@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/uiu.png">
+  <link rel="stylesheet" href="styles.css">
+  <title> FAQ accordion</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <style>
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+    
+    .back-button:hover {
+      background-color: #45a049;
+    }
+
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body>
+  <a href="javascript:history.back()" class="back-button">Back</a>
+
+  <!--<img class="background" src="assets/images/background-pattern-desktop.svg">-->
+  <div class="faqcontainer">
+    <h1><img src="assets/images/icon-star.svg">FAQ</h1>
+
+    <div class="question">
+      <details>
+        <summary class = "drop"><img src="assets/images/icon-plus.svg" class = "images">What is UIUoJ? What kind of a site/resource is it?</summary>
+        <p>UIUoJ is a project joining people interested in and taking part in programming contests.
+           On one hand, UIUoJ is a social network dedicated to programming and programming contests.
+            On the other hand, it is a platform where contests are held regularly, the participant's 
+            skills are reflected by their rating and the former contests can be used to prepare. 
+            UIUoJ constantly develops and we plan to improve the platform to give the participants
+             the opportunity to organize their own contests, filling the project with learning content,
+              developing UIUoJ as a training and learning platform.</p>
+      </details>
+    </div>
+
+    <div class="question">
+      <details>
+        <summary class = "drop2"><img src="assets/images/icon-plus.svg" class = "images2">What should I do to participate in contests? Is preliminary registration required?</summary>
+        <p>Contests are regularly held on UIUoJ. Participating in them is free and open to 
+          everybody. Every month we organize approximately five contests. To participate, you have
+           to be registered on the site and no need to register for the oncoming contest.</p>
+      </details>
+    </div>
+
+    <div class="question">
+      <details>
+        <summary class = "drop3"><img src="assets/images/icon-plus.svg" class = "images3">What other rules are on UIUoJ?</summary>
+        <p>
+          We don't have a clear Great UIUoJ Code of Conduct. However, of course, here you 
+          should behave in accordance with traditional rules of behavior in public places and 
+          theme groups. The following rules are, of course, necessary to follow:
+          <ol>
+            <li>Don't create more than one account.</li>
+            <li>Do not use harsh, rude, or misleading handle.</li>
+            <li>Do not use anybody's photo except yours. It is uncultured and could confuse UIUoJ users.</li>
+            <li>Don't be rude, don't insult other participants and administration, try to be polite and pleasant to communicate with.</li>
+            <li>When you take part in individual contests, don't talk about the problems with other contestants, don't use somebody else's code or insert it into your solutions. If the contest is a team one, discuss the tasks only with the teammates.</li>
+            <li>Don't publish or spread your solutions and solution ideas during the contest.</li>
+        </ol>
+          
+        </p>
+      </details>
+    </div>
+
+    <div class="question">
+      <details>
+        <summary class = "drop4"><img src="assets/images/icon-plus.svg" class = "images4">What languages can I use to solve problems here? Are there any problem solving examples?</summary>
+        <p>
+          At the present time the system is configured to support the following programming 
+          languages (the compilation and/or the launching line is shown for each language):
+          <ol>
+            <li>  GNU C  </li>
+            gcc.exe -static -fno-optimize-sibling-calls -fno-strict-aliasing -DONLINE_JUDGE -fno-asm -lm -s -Wl,--stack=268435456 -O2 -o {filename}.exe {file} 
+            <li>  GNU C++  </li>
+            g++.exe -static -DONLINE_JUDGE -lm -s -x c++ -Wl,--stack=268435456 -O2 -std=c++11 -D__USE_MINGW_ANSI_STDIO=0 -o {filename}.exe {file}
+          </ol>
+        </p>
+      </details>
+    </div>
+    <div class="question">
+      <details>
+        <summary class = "drop3"><img src="assets/images/icon-plus.svg" class = "images3">What are the rules of the contests?</summary>
+        <p>
+          They are usually held according to the original UIUoJ rules. 
+          If it is specially stated, then the International Collegiate Programming Contest 
+          rules ACM-ICPC or some other modifications can be used. In brief, on the contests 
+          held by UIUoJ rules you write solutions to the problems that are tested during 
+          the contest on a very small number of tests. Those who have passed that set of solution
+           tests, their authors can block (refuse to resend the solutions of this task in future
+            even if they find a mistake). Such authors receive the opportunity to look through 
+            the sources of other contestants, look for mistakes there and suggest the tests on which
+             these solutions do not work. Thus, you can hack somebody else's solution and earn 
+             points through it.
+  After the contest all the solutions that have passed the pretests and haven't been hacked
+   are tested on the final set of tests. The value of a task decreases during the contest 
+   (the faster you solve the problem, the more points you receive), unsuccessful hacks take
+    off the points and the successful ones add them. Please take a look at the detailed 
+    version of the rules before participating in the contest.
+          
+        </p>
+      </details>
+    </div>
+  
+  </div>
+
+  
+
+
+
+  <div class="attribution">
+ <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">&copy; 2024 UIU CELESTA OJ. All rights reserved.</a>. 
+     <a href="#"></a>.
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
